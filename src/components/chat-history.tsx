@@ -37,7 +37,7 @@ const ChatMessageEntry = ({
     <div className={`grid grid-cols-[2.5rem_1fr_2.5rem] gap-2 text-sm`}>
       <div className="flex items-end">
         {by === "ROWDY" && (
-          <div className="h-10 w-10 p-2 flex items-center justify-center rounded-full text-center border-1 border-[#FB471F]">
+          <div className="h-10 w-10 p-2 flex items-center justify-center rounded-full text-center border-1 border-[#3BD5AE]">
             <img src={umlLogo} alt="UML Logo" />
           </div>
         )}

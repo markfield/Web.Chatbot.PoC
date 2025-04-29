@@ -56,7 +56,7 @@ export const UserInput = ({
         />
       </div>
       <button
-        className={`bg-[#FB471F] flex-none text-white px-2 py-1 rounded-full w-8 h-8 cursor-pointer hover:bg-blue-600 disabled:bg-slate-300 disabled:text-gray-600 disabled:cursor-auto`}
+        className={`bg-[#3BD5AE] flex-none text-white px-2 py-1 rounded-full w-8 h-8 cursor-pointer hover:bg-blue-600 disabled:bg-slate-300 disabled:text-gray-600 disabled:cursor-auto`}
         title="Ask a question"
         disabled={isLoading || !message}
         onClick={async () => await handleSendMessage()}
